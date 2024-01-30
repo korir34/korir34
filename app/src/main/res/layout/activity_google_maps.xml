@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".GoogleMapsActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kevo"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#8260BF"
+            android:padding="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View the Map"
+            android:textSize="17dp"
+            android:textColor="@color/purple_200"
+            android:padding="30dp"
+            android:textStyle="bold"/>
+
+        <SearchView
+            android:id="@+id/serchView"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:elevation="20dp"
+            android:background="@color/purple_200"
+            android:padding="20dp"
+            android:queryHint="Search House..."
+            tools:targetApi="lollipop" />
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
